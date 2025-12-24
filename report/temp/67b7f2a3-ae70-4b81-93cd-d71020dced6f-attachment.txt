@@ -1,0 +1,13 @@
+INFO     common.recordlog:send_request.py:44 请求的接口名称：用户登录
+INFO     common.recordlog:send_request.py:45 请求的url：http://localhost:8787/dar/user/login
+INFO     common.recordlog:send_request.py:46 请求的method：post
+INFO     common.recordlog:send_request.py:47 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO     common.recordlog:send_request.py:48 请求的cookies：None
+INFO     common.recordlog:send_request.py:49 请求的file：None
+INFO     common.recordlog:send_request.py:50 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO     common.recordlog:send_request.py:26 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjU1NzI3NSwianRpIjoiYjA5MTgwMmYtNGRjYS00Mzg2LThhYzUtNThhZTA3MjM2ODA1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjU1NzI3NSwiZXhwIjoxNzY2NTU4MTc1fQ.uXldFg44lIZL4VxVNDveORdZhCZa1KG5izdftb_rAsI'}
+INFO     common.recordlog:send_request.py:55 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '6140913758128971280', 'token': 'aEf28a1Eb34e7Bc3363eabBB7B5DD', 'userId': '4551704734007370477'}
+INFO     common.recordlog:assertions.py:56 包含断言成功,实际结果为[None]，预期结果为None
+INFO     common.recordlog:assertions.py:48 containing断言成功：接口返回码【200】等于【200】
+INFO     common.recordlog:assertions.py:83 equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO     common.recordlog:assertions.py:136 测试通过

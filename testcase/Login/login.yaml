@@ -1,0 +1,44 @@
+- baseInfo:
+    api_name: 用户登录
+    url: /dar/user/login
+    method: post
+    headers:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+  testCase:
+    - case_name: 用户正常登录
+      data:
+        user_name: test01
+        passwd: admin123
+      #断言
+      validation:
+        - contains:
+            {
+              'error_code': null
+            }
+        - contains:
+            {
+              'status_code': 200
+            }
+        - eq:
+            {
+              'msg': '登录成功'
+            }
+      extract:
+        token: $.token
+    - case_name: 用户异常登录
+      data:
+        user_name: test0123
+        passwd: admin123
+      #断言
+      validation:
+        - contains:
+            {
+              'status_code': 200
+            }
+        - contains:
+            {
+              'msg': '登录失败'
+            }
+      extract:
+        token: $.token
+
