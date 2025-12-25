@@ -1,14 +1,13 @@
 - baseInfo:
-    api_name: 用户登录
-    url: /dar/user/login
+    api_name: 查询用户
+    url: /dar/user/queryUser
     method: post
     headers:
       Content-Type: application/x-www-form-urlencoded;charset=UTF-8
   testCase:
-    - case_name: 用户正常登录
+    - case_name: 正常查询用户
       data:
-        user_name: test01
-        passwd: admin123
+        user_id: 123839387391912
       #断言
       validation:
         - contains:
@@ -17,12 +16,11 @@
             }
         - contains:
             {
-              'status_code': 200
+              'msg_code': 200
             }
-        - eq:
+        - contains:
             {
-              'msg': '登录成功'
+              'msg': '查询成功'
             }
-      extract:
-        token: $.token
+
 

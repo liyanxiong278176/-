@@ -2,8 +2,9 @@ import time
 
 import pytest
 
+from base.apiutil import Api
 from common.dingRobot import send_dingding_message
-from common.readyaml import ReadAndWriteYaml
+from common.readyaml import ReadAndWriteYaml, get_yaml
 
 read=ReadAndWriteYaml()
 @pytest.fixture(scope="session",autouse=True)
@@ -15,6 +16,15 @@ def function(request):
     print("-------------------------------接口测试开始--------------------------------------")
     yield
     print("------------------------------接口测试结束----------------------------------------")
+
+
+@pytest.fixture(scope="session",autouse=True)
+def login():
+    login_data=get_yaml("./testcase/Login/login.yaml")
+    # print("login_data",login_data)
+    # print("login_data",login_data[0][0])
+    # print("login_data",login_data[0][1])
+    Api().specification_yaml(login_data[0][0],login_data[0][1])
 
 
 def pytest_terminal_summary(terminalreporter,exitstatus, config):

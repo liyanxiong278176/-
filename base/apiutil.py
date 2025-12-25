@@ -40,7 +40,7 @@ class Api:
                 fun_name=fun_and_params[2:fun_and_params.index('(')]
                 params=fun_and_params[fun_and_params.index('(')+1:fun_and_params.index(')')]
                 #通过反射来使用read下面的方法
-                extract_data=getattr(DebugTalk(), fun_name)(*params.split(',') if params else None)
+                extract_data=getattr(DebugTalk(), fun_name)(*params.split(',') if params else ())
                 #替换原来*.yaml里${}
                 str_data=str_data.replace(fun_and_params,str(extract_data))
 
@@ -105,7 +105,7 @@ class Api:
 
         res = self.send.run_main(api_name=api_name, url=url, method=method, headers=headers, cookies=cookie,
                                       file=files, **testcase)
-        #print("res的数据：",json.dumps(res.json(),indent=2,ensure_ascii=False))
+        print("res的数据：",json.dumps(res.json(),indent=2,ensure_ascii=False))
         if extract is not None:
             self.extract_data(extract,res.text)
         elif extract_list is not None:

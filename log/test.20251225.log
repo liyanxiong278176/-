@@ -1,0 +1,673 @@
+INFO - 2025-12-25 14:18:11,283 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:18:11,283 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:18:11,283 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:18:11,283 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:18:11,284 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:18:11,284 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:18:11,284 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:18:11,294 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0MzQ5MSwianRpIjoiNjEyYjgyMjAtOWJkZi00MmI3LWI0N2ItZGI1NzFmYjU0ZDgyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0MzQ5MSwiZXhwIjoxNzY2NjQ0MzkxfQ.Z9amEKH2ZqrgbXG5cLAIybJKlnvHwHqYps-LvDuk4Jo'}
+INFO - 2025-12-25 14:18:11,294 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '4140913758110176843', 'token': '6433fcfF8Ffa7Ab1a3cd0c54eb8dF', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:18:11,295 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:18:11,295 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:18:11,295 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:18:11,295 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:20:26,161 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:20:26,161 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:20:26,161 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:20:26,161 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:20:26,161 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:20:26,161 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:20:26,163 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:20:26,169 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0MzYyNiwianRpIjoiZTRmY2YxMjUtNDZhOS00ZjkzLWE4ODctYzBiYmIwYWQwMTYwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0MzYyNiwiZXhwIjoxNzY2NjQ0NTI2fQ.pnRR5uOkP1-tqpWVZuyKRmxUavToFWOaLbfh8_FRLcc'}
+INFO - 2025-12-25 14:20:26,169 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '4140913758110176843', 'token': 'aA8f114241c74fedEE86B08e15EEa', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:20:26,170 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:20:26,170 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:20:26,170 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:20:26,170 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:20:26,179 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：新增用户
+INFO - 2025-12-25 14:20:26,179 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/addUser
+INFO - 2025-12-25 14:20:26,179 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:20:26,179 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:20:26,179 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:20:26,179 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:20:26,181 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2025-12-25', 'phone': 13800000000, 'token': 'aA8f114241c74fedEE86B08e15EEa'}}
+INFO - 2025-12-25 14:20:26,184 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '新增成功', 'msg_code': 200}
+INFO - 2025-12-25 14:20:26,184 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:20:26,184 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+ERROR - 2025-12-25 14:20:26,184 - assertions.py:58 -[assertions:contains_assert] - 包含断言失败,实际结果为新增成功，预期结果为登录成功
+ERROR - 2025-12-25 14:20:26,184 - assertions.py:139 -[assertions:assert_result] - 测试失败
+INFO - 2025-12-25 14:21:33,638 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:21:33,639 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:21:33,639 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:21:33,639 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:21:33,640 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:21:33,640 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:21:33,640 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:21:33,649 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0MzY5MywianRpIjoiODFhNDQ0MmEtZDU2Mi00Y2JlLWE3NDgtMjcyZDc1NWMzZDFkIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0MzY5MywiZXhwIjoxNzY2NjQ0NTkzfQ.i5wEoEPbq_FVejmd8UIIgAyfj7Ap4ky58OmmebJ0nBg'}
+INFO - 2025-12-25 14:21:33,649 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '6140913758128971280', 'token': 'ED0e4B17a2bbA9Db41b5BCBd28Afd', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:21:38,442 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:21:44,550 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:21:45,296 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:21:46,322 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:21:46,352 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：新增用户
+INFO - 2025-12-25 14:21:46,353 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/addUser
+INFO - 2025-12-25 14:21:46,353 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:21:46,354 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:21:46,354 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:21:46,355 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:21:46,355 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2025-12-25', 'phone': 13800000000, 'token': 'ED0e4B17a2bbA9Db41b5BCBd28Afd'}}
+INFO - 2025-12-25 14:21:46,364 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '新增成功', 'msg_code': 200}
+INFO - 2025-12-25 14:21:47,333 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:22:07,862 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:22:07,863 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:22:07,863 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:22:07,863 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:22:07,863 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:22:07,864 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:22:07,864 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:22:07,870 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0MzcyNywianRpIjoiM2U1OGJjM2YtMDM1OS00OTVjLWFmZTItZTFlYTFhMDI5NWZiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0MzcyNywiZXhwIjoxNzY2NjQ0NjI3fQ.NmPhMl8tRRMD4WBQKDTjlDQeRgIjKC2ZtkulF03wm9E'}
+INFO - 2025-12-25 14:22:07,870 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '6140913758128971280', 'token': 'fc01Cf3b20f9CbfAc7CB30A62baB4', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:22:07,871 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:22:07,871 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:22:07,871 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:22:07,871 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:22:07,882 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：新增用户
+INFO - 2025-12-25 14:22:07,882 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/addUser
+INFO - 2025-12-25 14:22:07,882 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:22:07,882 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:22:07,882 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:22:07,883 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:22:07,883 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2025-12-25', 'phone': 13800000000, 'token': 'fc01Cf3b20f9CbfAc7CB30A62baB4'}}
+INFO - 2025-12-25 14:22:07,886 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '新增成功', 'msg_code': 200}
+INFO - 2025-12-25 14:22:07,887 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:22:07,887 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:22:07,887 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为新增成功，预期结果为新增成功
+INFO - 2025-12-25 14:22:07,887 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:24:00,509 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:24:00,510 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:24:00,510 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:24:00,510 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:24:00,510 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:24:00,511 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:24:00,511 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:24:00,517 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0Mzg0MCwianRpIjoiNGM4N2ZmZGYtYWUwMy00YWI4LTk5MzYtYTdjZjBhMjZmNDFiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0Mzg0MCwiZXhwIjoxNzY2NjQ0NzQwfQ.fFccNVaSVHuuiYVXyU7ZhyEEDFgFKoy8KwfnfVmggq8'}
+INFO - 2025-12-25 14:24:00,517 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '6140913758128971280', 'token': '9F019527c258cBcF7A9ef4bBEacb9', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:24:00,518 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:24:00,518 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:24:00,518 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:24:00,518 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:24:00,531 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：新增用户
+INFO - 2025-12-25 14:24:00,531 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/addUser
+INFO - 2025-12-25 14:24:00,531 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:24:00,531 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:24:00,532 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:24:00,532 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:24:00,532 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2025-12-25', 'phone': 13800000000, 'token': '9F019527c258cBcF7A9ef4bBEacb9'}}
+INFO - 2025-12-25 14:24:00,535 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '新增成功', 'msg_code': 200}
+INFO - 2025-12-25 14:24:00,536 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:24:00,536 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:24:00,536 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为新增成功，预期结果为新增成功
+INFO - 2025-12-25 14:24:00,537 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:24:16,978 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:24:16,978 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:24:16,978 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:24:16,979 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:24:16,979 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:24:16,979 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:24:16,979 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:24:16,987 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0Mzg1NiwianRpIjoiNmRhZmM0ODQtMjNjZi00YzA0LWFmMzEtYmRiODA1NDg0MGRjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0Mzg1NiwiZXhwIjoxNzY2NjQ0NzU2fQ.Z4flyztr8BxDEFUxHettwVLq8LaO84atNWut9saXN9k'}
+INFO - 2025-12-25 14:24:16,988 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '4140913758110176843', 'token': 'aA6d355E2Ba6ADADeAAd7aE165b17', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:24:16,988 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:24:16,988 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:24:16,989 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:24:16,989 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:24:17,002 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：新增用户
+INFO - 2025-12-25 14:24:17,003 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/addUser
+INFO - 2025-12-25 14:24:17,003 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:24:17,003 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:24:17,003 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:24:17,003 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:24:17,004 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2025-12-25', 'phone': 13800000000, 'token': 'aA6d355E2Ba6ADADeAAd7aE165b17'}}
+INFO - 2025-12-25 14:24:17,009 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '新增成功', 'msg_code': 200}
+INFO - 2025-12-25 14:24:17,010 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:24:17,010 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:24:17,010 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为新增成功，预期结果为新增成功
+INFO - 2025-12-25 14:24:17,010 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:29:04,574 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:29:04,575 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:29:04,575 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:29:04,575 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:29:04,575 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:29:04,575 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:29:04,575 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:29:04,583 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0NDE0NCwianRpIjoiMjJiN2JjMzctMDA2Mi00YjM4LTk5ZjMtYTkzNTRiMGU0YTNjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0NDE0NCwiZXhwIjoxNzY2NjQ1MDQ0fQ.y5s0Rx0rDjZs_Rc2vTL9zsCF-WaxCz-9ebsFHZljHK8'}
+INFO - 2025-12-25 14:29:04,583 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '6140913758128971280', 'token': 'E8CBeA25c9CEfe3Ed5aAefCBB5162', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:29:04,584 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:29:04,584 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:29:04,584 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:29:04,584 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:29:04,609 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：新增用户
+INFO - 2025-12-25 14:29:04,609 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/addUser
+INFO - 2025-12-25 14:29:04,609 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:29:04,609 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:29:04,609 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:29:04,610 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:29:04,610 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2025-12-25', 'phone': 13800000000, 'token': 'E8CBeA25c9CEfe3Ed5aAefCBB5162'}}
+INFO - 2025-12-25 14:29:04,613 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '新增成功', 'msg_code': 200}
+INFO - 2025-12-25 14:29:04,613 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:29:04,613 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:29:04,613 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为新增成功，预期结果为新增成功
+INFO - 2025-12-25 14:29:04,614 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:29:38,708 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:29:38,708 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:29:38,709 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:29:38,709 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:29:38,709 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:29:38,709 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:29:38,710 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:29:38,720 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0NDE3OCwianRpIjoiODM2MWRjZDktNGYwZS00N2E5LTgyODMtMGY3NzVhNDM1OTk3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0NDE3OCwiZXhwIjoxNzY2NjQ1MDc4fQ.9ZHq-A2_sjjE_Wm3pvbqcZ5Sk8wJ-iTZNMaE8kzX9J0'}
+INFO - 2025-12-25 14:29:38,721 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '6140913758128971280', 'token': 'df98EBac29CaDfCd40fB79Ab73bED', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:29:38,721 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:29:38,722 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:29:38,722 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:29:38,722 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:29:38,737 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：新增用户
+INFO - 2025-12-25 14:29:38,737 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/addUser
+INFO - 2025-12-25 14:29:38,737 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:29:38,737 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:29:38,738 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:29:38,738 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:29:38,738 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2025-12-25', 'phone': 13800000000, 'token': 'df98EBac29CaDfCd40fB79Ab73bED'}}
+INFO - 2025-12-25 14:29:38,743 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '新增成功', 'msg_code': 200}
+INFO - 2025-12-25 14:29:38,743 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:29:38,743 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:29:38,744 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为新增成功，预期结果为新增成功
+INFO - 2025-12-25 14:29:38,744 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:30:15,230 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:30:15,230 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:30:15,230 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:30:15,230 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:30:15,230 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:30:15,230 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:30:15,232 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:30:15,237 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0NDIxNSwianRpIjoiZjgxODY2OWUtZDhiNC00YWI2LTgxYzUtZDhlYjAwOTU5N2NmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0NDIxNSwiZXhwIjoxNzY2NjQ1MTE1fQ.SGTq2X-M-_oyc6Q-isZkQ9RnyuOhoqfpJWi0k_HhbnQ'}
+INFO - 2025-12-25 14:30:15,237 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '4140913758110176843', 'token': 'E40db85a04B50624e75cc6f3C5aE0', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:30:15,238 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:30:15,238 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:30:15,238 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:30:15,238 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:30:15,261 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：新增用户
+INFO - 2025-12-25 14:30:15,262 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/addUser
+INFO - 2025-12-25 14:30:15,262 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:30:15,262 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:30:15,262 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:30:15,263 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:30:15,263 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2025-12-25', 'phone': 13800000000, 'token': 'E40db85a04B50624e75cc6f3C5aE0'}}
+INFO - 2025-12-25 14:30:15,269 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '新增成功', 'msg_code': 200}
+INFO - 2025-12-25 14:30:15,269 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:30:15,270 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:30:15,270 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为新增成功，预期结果为新增成功
+INFO - 2025-12-25 14:30:15,270 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:30:48,776 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:30:48,776 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:30:48,777 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:30:48,777 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:30:48,777 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:30:48,778 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:30:48,778 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:30:48,786 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0NDI0OCwianRpIjoiZTdmZDY0Y2EtOGFiMy00ZTQzLWEzYjQtNmVlZDYwMjE2ZjA0IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0NDI0OCwiZXhwIjoxNzY2NjQ1MTQ4fQ.AQhtCkmxVyyv-T596_CU09BmtS7ddGRnylKQswsgtNc'}
+INFO - 2025-12-25 14:30:48,786 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '6140913758128971280', 'token': '53cAa2AbBdAfeBb7BcaEfacA3BD68', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:30:48,787 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:30:48,787 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:30:48,787 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:30:48,787 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:30:48,795 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：新增用户
+INFO - 2025-12-25 14:30:48,796 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/addUser
+INFO - 2025-12-25 14:30:48,796 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:30:48,796 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:30:48,796 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:30:48,796 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:30:48,796 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2025-12-25', 'phone': 13800000000, 'token': '53cAa2AbBdAfeBb7BcaEfacA3BD68'}}
+INFO - 2025-12-25 14:30:48,800 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '新增成功', 'msg_code': 200}
+INFO - 2025-12-25 14:30:48,800 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:30:48,801 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:30:48,801 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为新增成功，预期结果为新增成功
+INFO - 2025-12-25 14:30:48,801 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:33:41,620 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:33:41,620 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:33:41,620 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:33:41,621 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:33:41,621 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:33:41,621 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:33:41,621 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:33:41,630 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0NDQyMSwianRpIjoiNjQ1YmJkZGQtOTdlZi00YjU5LWJjNmUtNjY0NTdmZjczNmU2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0NDQyMSwiZXhwIjoxNzY2NjQ1MzIxfQ.7MN5ErWQoAI8DyMkqPk9QfdFN6Qan2C6SPkLpB7vPXM'}
+INFO - 2025-12-25 14:33:41,630 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '6140913758128971280', 'token': '2FecdcE8e0Db3f5Ef85fa09c4b38b', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:33:41,631 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:33:41,631 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:33:41,631 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:33:41,631 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:33:41,649 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：新增用户
+INFO - 2025-12-25 14:33:41,649 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/addUser
+INFO - 2025-12-25 14:33:41,650 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:33:41,650 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:33:41,650 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:33:41,650 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:33:41,650 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2025-12-25', 'phone': 13800000000, 'token': '2FecdcE8e0Db3f5Ef85fa09c4b38b'}}
+INFO - 2025-12-25 14:33:41,653 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '新增成功', 'msg_code': 200}
+INFO - 2025-12-25 14:33:41,654 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:33:41,654 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:33:41,654 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为新增成功，预期结果为新增成功
+INFO - 2025-12-25 14:33:41,654 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:33:41,661 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：删除用户
+INFO - 2025-12-25 14:33:41,662 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/deleteUser
+INFO - 2025-12-25 14:33:41,662 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:33:41,662 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:33:41,662 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:33:41,662 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:33:41,663 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_id': 123839387391912}}
+INFO - 2025-12-25 14:33:41,665 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '删除成功!', 'msg_code': 200}
+INFO - 2025-12-25 14:33:41,665 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:33:41,665 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+ERROR - 2025-12-25 14:33:41,666 - assertions.py:58 -[assertions:contains_assert] - 包含断言失败,实际结果为删除成功!，预期结果为新增成功
+ERROR - 2025-12-25 14:33:41,666 - assertions.py:139 -[assertions:assert_result] - 测试失败
+INFO - 2025-12-25 14:33:57,718 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:33:57,718 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:33:57,719 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:33:57,719 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:33:57,719 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:33:57,719 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:33:57,720 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:33:57,726 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0NDQzNywianRpIjoiNDlmMDYwNzAtYmU1ZS00ZjQ4LTliMDItZmY2MTIzMjdmZDk2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0NDQzNywiZXhwIjoxNzY2NjQ1MzM3fQ.deLYwggUSIl2h1uAGIcp0wN3zM9zJmZDboGFMc5keks'}
+INFO - 2025-12-25 14:33:57,726 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '6140913758128971280', 'token': 'C862eFdBaFe2c73EcAdEa7d6eBeE7', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:33:57,726 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:33:57,727 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:33:57,727 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:33:57,727 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:33:57,735 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：新增用户
+INFO - 2025-12-25 14:33:57,736 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/addUser
+INFO - 2025-12-25 14:33:57,736 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:33:57,736 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:33:57,736 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:33:57,736 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:33:57,736 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2025-12-25', 'phone': 13800000000, 'token': 'C862eFdBaFe2c73EcAdEa7d6eBeE7'}}
+INFO - 2025-12-25 14:33:57,740 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '新增成功', 'msg_code': 200}
+INFO - 2025-12-25 14:33:57,740 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:33:57,741 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:33:57,741 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为新增成功，预期结果为新增成功
+INFO - 2025-12-25 14:33:57,741 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:33:57,745 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：删除用户
+INFO - 2025-12-25 14:33:57,745 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/deleteUser
+INFO - 2025-12-25 14:33:57,745 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:33:57,745 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:33:57,745 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:33:57,745 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:33:57,746 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_id': 123839387391912}}
+INFO - 2025-12-25 14:33:57,751 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '删除成功!', 'msg_code': 200}
+INFO - 2025-12-25 14:33:57,751 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:33:57,751 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:33:57,751 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为删除成功!，预期结果为删除成功
+INFO - 2025-12-25 14:33:57,751 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:42:08,614 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:42:08,615 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:42:08,615 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:42:08,615 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:42:08,615 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:42:08,615 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:42:08,615 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:42:08,624 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0NDkyOCwianRpIjoiMzBkMzhlNWYtYWE0OC00YmVlLTgyN2EtOWFlZjA1YjNiNDI2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0NDkyOCwiZXhwIjoxNzY2NjQ1ODI4fQ.O-S58EN7_RByzV8RHZJa0MvI5Xp_0dIcrkX6y7zylnY'}
+INFO - 2025-12-25 14:42:08,625 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '6140913758128971280', 'token': 'dE4a6DAcb76F4c7b89BbcCeb9b1bF', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:42:08,625 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:42:08,625 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:42:08,626 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:42:08,626 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:42:08,635 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：新增用户
+INFO - 2025-12-25 14:42:08,635 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/addUser
+INFO - 2025-12-25 14:42:08,635 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:42:08,635 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:42:08,636 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:42:08,636 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:42:08,636 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2025-12-25', 'phone': 13800000000, 'token': 'dE4a6DAcb76F4c7b89BbcCeb9b1bF'}}
+INFO - 2025-12-25 14:42:08,640 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '新增成功', 'msg_code': 200}
+INFO - 2025-12-25 14:42:08,641 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:42:08,641 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:42:08,641 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为新增成功，预期结果为新增成功
+INFO - 2025-12-25 14:42:08,641 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:42:08,644 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：删除用户
+INFO - 2025-12-25 14:42:08,644 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/deleteUser
+INFO - 2025-12-25 14:42:08,645 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:42:08,645 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:42:08,645 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:42:08,645 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:42:08,645 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_id': 123839387391912}}
+INFO - 2025-12-25 14:42:08,648 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '删除成功!', 'msg_code': 200}
+INFO - 2025-12-25 14:42:08,649 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:42:08,649 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:42:08,649 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为删除成功!，预期结果为删除成功
+INFO - 2025-12-25 14:42:08,649 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:42:08,653 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：查询用户
+INFO - 2025-12-25 14:42:08,653 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/queryUser
+INFO - 2025-12-25 14:42:08,653 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:42:08,653 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:42:08,653 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:42:08,654 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:42:08,654 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_id': 123839387391912}}
+INFO - 2025-12-25 14:42:08,657 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '查询成功!', 'msg_code': 200}
+INFO - 2025-12-25 14:42:08,657 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:42:08,658 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:42:08,658 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为查询成功!，预期结果为查询成功
+INFO - 2025-12-25 14:42:08,658 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:45:26,806 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:45:26,807 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:45:26,807 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:45:26,807 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:45:26,807 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:45:26,807 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:45:26,807 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:45:26,817 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0NTEyNiwianRpIjoiMWNjMDZjNWQtMWI5My00Y2M4LTg2OTAtZmE2MGIzNjVjOGYyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0NTEyNiwiZXhwIjoxNzY2NjQ2MDI2fQ.pz4pfyVvu3IGNuHIQVhs9gK3gpNroC2Egp65gdhrQoI'}
+INFO - 2025-12-25 14:45:26,818 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '4140913758110176843', 'token': 'b750B24DdF6a14dEB7aCeDeBB1bBd', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:45:26,818 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:45:26,819 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:45:26,819 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:45:26,819 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:45:26,827 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：新增用户
+INFO - 2025-12-25 14:45:26,827 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/addUser
+INFO - 2025-12-25 14:45:26,827 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:45:26,827 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:45:26,827 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:45:26,828 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:45:26,828 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2025-12-25', 'phone': 13800000000, 'token': 'b750B24DdF6a14dEB7aCeDeBB1bBd'}}
+INFO - 2025-12-25 14:45:26,830 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '新增成功', 'msg_code': 200}
+INFO - 2025-12-25 14:45:26,831 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:45:26,831 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:45:26,831 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为新增成功，预期结果为新增成功
+INFO - 2025-12-25 14:45:26,831 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:45:26,839 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：删除用户
+INFO - 2025-12-25 14:45:26,839 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/deleteUser
+INFO - 2025-12-25 14:45:26,839 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:45:26,839 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:45:26,840 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:45:26,840 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:45:26,840 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_id': 123839387391912}}
+INFO - 2025-12-25 14:45:26,843 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '删除成功!', 'msg_code': 200}
+INFO - 2025-12-25 14:45:26,843 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:45:26,843 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:45:26,843 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为删除成功!，预期结果为删除成功
+INFO - 2025-12-25 14:45:26,844 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:45:26,846 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：查询用户
+INFO - 2025-12-25 14:45:26,847 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/queryUser
+INFO - 2025-12-25 14:45:26,847 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:45:26,847 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:45:26,847 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:45:26,847 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:45:26,847 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_id': 123839387391912}}
+INFO - 2025-12-25 14:45:26,851 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '查询成功!', 'msg_code': 200}
+INFO - 2025-12-25 14:45:26,851 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:45:26,852 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:45:26,852 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为查询成功!，预期结果为查询成功
+INFO - 2025-12-25 14:45:26,852 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:45:52,746 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:45:52,746 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:45:52,746 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:45:52,746 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:45:52,747 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:45:52,747 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:45:52,747 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:45:52,756 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0NTE1MiwianRpIjoiNzA2NTU4OWEtOTY0NS00ZWJkLTg1OTAtNmU5ZTBhMDc5OWUxIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0NTE1MiwiZXhwIjoxNzY2NjQ2MDUyfQ.f1F52TyTrqWdwXLQeCkJPXxiOQXgLXojSmSbR6mFH_8'}
+INFO - 2025-12-25 14:45:52,756 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '6140913758128971280', 'token': '02D3048116911b874D7Ace3C70B4A', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:45:52,756 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:45:52,757 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:45:52,757 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:45:52,757 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:45:52,778 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：新增用户
+INFO - 2025-12-25 14:45:52,778 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/addUser
+INFO - 2025-12-25 14:45:52,778 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:45:52,780 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:45:52,780 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:45:52,780 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:45:52,780 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2025-12-25', 'phone': 13800000000, 'token': '02D3048116911b874D7Ace3C70B4A'}}
+INFO - 2025-12-25 14:45:52,784 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '新增成功', 'msg_code': 200}
+INFO - 2025-12-25 14:45:52,784 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:45:52,784 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:45:52,784 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为新增成功，预期结果为新增成功
+INFO - 2025-12-25 14:45:52,785 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:45:52,792 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：删除用户
+INFO - 2025-12-25 14:45:52,792 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/deleteUser
+INFO - 2025-12-25 14:45:52,793 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:45:52,793 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:45:52,793 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:45:52,793 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:45:52,793 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_id': 123839387391912}}
+INFO - 2025-12-25 14:45:52,799 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '删除成功!', 'msg_code': 200}
+INFO - 2025-12-25 14:45:52,799 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:45:52,800 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:45:52,800 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为删除成功!，预期结果为删除成功
+INFO - 2025-12-25 14:45:52,800 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:45:52,803 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：查询用户
+INFO - 2025-12-25 14:45:52,803 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/queryUser
+INFO - 2025-12-25 14:45:52,803 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:45:52,803 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:45:52,805 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:45:52,805 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:45:52,805 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_id': 123839387391912}}
+INFO - 2025-12-25 14:45:52,808 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '查询成功!', 'msg_code': 200}
+INFO - 2025-12-25 14:45:52,808 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:45:52,808 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:45:52,808 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为查询成功!，预期结果为查询成功
+INFO - 2025-12-25 14:45:52,808 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:45:52,811 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：修改用户
+INFO - 2025-12-25 14:45:52,812 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/updateUser
+INFO - 2025-12-25 14:45:52,812 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:45:52,812 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:45:52,812 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:45:52,812 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:45:52,812 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789#$123', 'role_id': 89588181111112343, 'dates': '2025-12-25', 'phone': 13800000000}}
+INFO - 2025-12-25 14:45:52,815 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'msg': '更新失败', 'msg_code': 9001}
+ERROR - 2025-12-25 14:45:52,816 - assertions.py:131 -[assertions:assert_result] - 测试失败
+ERROR - 2025-12-25 14:45:52,816 - assertions.py:132 -[assertions:assert_result] - 测试失败原因：list index out of range
+INFO - 2025-12-25 14:46:51,664 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:46:51,664 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:46:51,665 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:46:51,665 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:46:51,665 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:46:51,665 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:46:51,665 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:46:51,672 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0NTIxMSwianRpIjoiZTI5NDNkM2QtMzdhOS00YjFhLWE2ZDYtNzNkZjYwMTQwZTE5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0NTIxMSwiZXhwIjoxNzY2NjQ2MTExfQ.JoiJpzCWFXCrfLB0KDKGYeiXTreQr2INjq2NDsuA--s'}
+INFO - 2025-12-25 14:46:51,672 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '6140913758128971280', 'token': 'aAba6e0Da8C2B9adB1BD09C34B8D8', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:46:51,673 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:46:51,673 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:46:51,673 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:46:51,673 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:46:51,684 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：新增用户
+INFO - 2025-12-25 14:46:51,684 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/addUser
+INFO - 2025-12-25 14:46:51,684 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:46:51,685 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:46:51,685 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:46:51,685 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:46:51,685 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2025-12-25', 'phone': 13800000000, 'token': 'aAba6e0Da8C2B9adB1BD09C34B8D8'}}
+INFO - 2025-12-25 14:46:51,689 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '新增成功', 'msg_code': 200}
+INFO - 2025-12-25 14:46:51,689 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:46:51,689 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:46:51,690 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为新增成功，预期结果为新增成功
+INFO - 2025-12-25 14:46:51,690 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:46:51,697 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：删除用户
+INFO - 2025-12-25 14:46:51,698 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/deleteUser
+INFO - 2025-12-25 14:46:51,698 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:46:51,698 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:46:51,698 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:46:51,698 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:46:51,699 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_id': 123839387391912}}
+INFO - 2025-12-25 14:46:51,702 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '删除成功!', 'msg_code': 200}
+INFO - 2025-12-25 14:46:51,702 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:46:51,702 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:46:51,702 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为删除成功!，预期结果为删除成功
+INFO - 2025-12-25 14:46:51,703 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:46:51,706 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：查询用户
+INFO - 2025-12-25 14:46:51,706 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/queryUser
+INFO - 2025-12-25 14:46:51,706 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:46:51,706 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:46:51,707 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:46:51,707 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:46:51,707 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_id': 123839387391912}}
+INFO - 2025-12-25 14:46:51,710 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '查询成功!', 'msg_code': 200}
+INFO - 2025-12-25 14:46:51,710 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:46:51,711 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:46:51,711 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为查询成功!，预期结果为查询成功
+INFO - 2025-12-25 14:46:51,711 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:46:51,714 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：修改用户
+INFO - 2025-12-25 14:46:51,714 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/updateUser
+INFO - 2025-12-25 14:46:51,714 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:46:51,715 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:46:51,715 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:46:51,715 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:46:51,715 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789#$123', 'role_id': 89588181111112343, 'dates': '2025-12-25', 'phone': 13800000000}}
+INFO - 2025-12-25 14:46:51,718 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'msg': '更新失败', 'msg_code': 9001}
+ERROR - 2025-12-25 14:46:51,719 - assertions.py:131 -[assertions:assert_result] - 测试失败
+ERROR - 2025-12-25 14:46:51,719 - assertions.py:132 -[assertions:assert_result] - 测试失败原因：list index out of range
+INFO - 2025-12-25 14:48:51,414 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:48:51,414 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:48:51,415 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:48:51,415 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:48:51,415 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:48:51,415 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:48:51,415 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:48:51,421 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0NTMzMSwianRpIjoiM2E4OWE2YTUtZjUwZS00YjdhLTg0NGItODFkYTMwYWE4ZjQ2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0NTMzMSwiZXhwIjoxNzY2NjQ2MjMxfQ.Jk9OaaHgu1P-YaRVUaIf9BSkUMa0tO-lwqxNOlLrv68'}
+INFO - 2025-12-25 14:48:51,421 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '4140913758110176843', 'token': 'cae9d981f8eBC0bf5f3EafA7Aa2bc', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:48:51,422 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:48:51,422 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:48:51,422 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:48:51,423 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:48:51,430 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：新增用户
+INFO - 2025-12-25 14:48:51,430 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/addUser
+INFO - 2025-12-25 14:48:51,431 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:48:51,431 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:48:51,431 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:48:51,431 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:48:51,431 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789890', 'role_id': 123456789, 'dates': '2025-12-25', 'phone': 13800000000, 'token': 'cae9d981f8eBC0bf5f3EafA7Aa2bc'}}
+INFO - 2025-12-25 14:48:51,435 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '新增成功', 'msg_code': 200}
+INFO - 2025-12-25 14:48:51,435 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:48:51,435 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:48:51,436 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为新增成功，预期结果为新增成功
+INFO - 2025-12-25 14:48:51,436 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:48:51,439 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：删除用户
+INFO - 2025-12-25 14:48:51,439 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/deleteUser
+INFO - 2025-12-25 14:48:51,440 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:48:51,440 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:48:51,440 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:48:51,440 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:48:51,440 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_id': 123839387391912}}
+INFO - 2025-12-25 14:48:51,445 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '删除成功!', 'msg_code': 200}
+INFO - 2025-12-25 14:48:51,445 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:48:51,445 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:48:51,446 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为删除成功!，预期结果为删除成功
+INFO - 2025-12-25 14:48:51,446 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:48:51,449 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：查询用户
+INFO - 2025-12-25 14:48:51,449 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/queryUser
+INFO - 2025-12-25 14:48:51,449 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:48:51,449 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:48:51,449 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:48:51,449 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:48:51,450 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_id': 123839387391912}}
+INFO - 2025-12-25 14:48:51,452 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '查询成功!', 'msg_code': 200}
+INFO - 2025-12-25 14:48:51,452 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:48:51,453 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[200]，预期结果为200
+INFO - 2025-12-25 14:48:51,453 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为查询成功!，预期结果为查询成功
+INFO - 2025-12-25 14:48:51,453 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:48:51,456 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：修改用户
+INFO - 2025-12-25 14:48:51,456 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/updateUser
+INFO - 2025-12-25 14:48:51,456 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:48:51,457 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:48:51,457 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:48:51,457 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:48:51,457 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789#$123', 'role_id': 89588181111112343, 'dates': '2025-12-25', 'phone': 13800000000}}
+INFO - 2025-12-25 14:48:51,460 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'msg': '更新失败', 'msg_code': 9001}
+ERROR - 2025-12-25 14:48:51,461 - assertions.py:131 -[assertions:assert_result] - 测试失败
+ERROR - 2025-12-25 14:48:51,461 - assertions.py:132 -[assertions:assert_result] - 测试失败原因：list index out of range
+INFO - 2025-12-25 14:49:28,772 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:49:28,772 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:49:28,773 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:49:28,773 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:49:28,773 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:49:28,774 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:49:28,774 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:49:28,783 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0NTM2OCwianRpIjoiMGViYjc1NDYtZjc1Zi00MDQ1LWI3OGMtMjQ5N2ZlN2IwOTJiIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0NTM2OCwiZXhwIjoxNzY2NjQ2MjY4fQ.cjy0bQcYbTbHxlBkbZxrVPsDalnQC0ByhtneeEvXNdo'}
+INFO - 2025-12-25 14:49:28,783 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '6140913758128971280', 'token': 'e38fbf28Dfd29485e9dbA9bEa1c92', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:49:36,891 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:49:37,838 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:49:38,425 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:49:39,031 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:49:39,038 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：修改用户
+INFO - 2025-12-25 14:49:39,039 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/updateUser
+INFO - 2025-12-25 14:49:39,039 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:49:39,039 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:49:39,040 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:49:39,040 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:49:39,040 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789#$123', 'role_id': 89588181111112343, 'dates': '2025-12-25', 'phone': 13800000000}}
+INFO - 2025-12-25 14:49:39,046 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'msg': '更新失败', 'msg_code': 9001}
+ERROR - 2025-12-25 14:49:40,041 - assertions.py:131 -[assertions:assert_result] - 测试失败
+ERROR - 2025-12-25 14:49:40,041 - assertions.py:132 -[assertions:assert_result] - 测试失败原因：list index out of range
+INFO - 2025-12-25 14:49:50,034 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:49:50,034 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:49:50,035 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:49:50,035 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:49:50,035 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:49:50,035 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:49:50,035 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:49:50,048 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0NTM5MCwianRpIjoiZjc1MDMxZGMtNWEwZS00NzBhLWIxZjctZmI5ZDBlOGMyOGE5IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0NTM5MCwiZXhwIjoxNzY2NjQ2MjkwfQ.D-G-OQ2Z-oaxboKqO8_RQqEC1ACV8yR6OJEu_vcYYxM'}
+INFO - 2025-12-25 14:49:50,049 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '4140913758110176843', 'token': '6eCbc3dAE3FADcdc596C05fA9cBc8', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:49:57,788 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:49:59,248 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:50:00,660 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:50:02,450 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:50:02,458 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：修改用户
+INFO - 2025-12-25 14:50:02,458 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/updateUser
+INFO - 2025-12-25 14:50:02,458 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:50:02,459 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:50:02,459 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:50:02,459 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:50:02,459 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789#$123', 'role_id': 89588181111112343, 'dates': '2025-12-25', 'phone': 13800000000}}
+INFO - 2025-12-25 14:50:02,467 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'msg': '更新失败', 'msg_code': 9001}
+INFO - 2025-12-25 14:50:56,094 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:50:56,095 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:50:56,095 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:50:56,096 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:50:56,096 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:50:56,097 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:50:56,097 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:50:56,107 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0NTQ1NiwianRpIjoiOGY2N2Y4NzMtMzBjOC00OTZmLWE0NWQtYjc3NzkyZmNlNDNlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0NTQ1NiwiZXhwIjoxNzY2NjQ2MzU2fQ.8frdGekWjCnnxgccwHWI0Kjt62tMILeHyb0ZZzrfW_Q'}
+INFO - 2025-12-25 14:50:56,107 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '4140913758110176843', 'token': 'a04D2005Da3BCb2A87e9bB6A3CC7A', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:50:56,108 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:50:56,109 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:50:56,109 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:50:56,109 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:51:23,065 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：修改用户
+INFO - 2025-12-25 14:51:23,066 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/updateUser
+INFO - 2025-12-25 14:51:23,067 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:51:23,067 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:51:23,068 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:51:23,068 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:51:23,069 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789#$123', 'role_id': 89588181111112343, 'dates': '2025-12-25', 'phone': 13800000000}}
+INFO - 2025-12-25 14:51:23,077 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'msg': '更新失败', 'msg_code': 9001}
+INFO - 2025-12-25 14:52:28,351 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：用户登录
+INFO - 2025-12-25 14:52:28,351 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/login
+INFO - 2025-12-25 14:52:28,352 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:52:28,352 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:52:28,352 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:52:28,352 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:52:28,352 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2025-12-25 14:52:28,359 - send_request.py:26 -[send_request:send_request] - 请求的cookies：{'access_token_cookie': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc2NjY0NTU0OCwianRpIjoiOWViZDRiNmItMzg4NS00NGVjLTk3NzgtMWViNGI0NDdlOGNhIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImV4YW1wbGVfdXNlciIsIm5iZiI6MTc2NjY0NTU0OCwiZXhwIjoxNzY2NjQ2NDQ4fQ.Y1iiOQXiXBNHi14mLeI96kV9BdNeBpiFBsNAQRcl-6c'}
+INFO - 2025-12-25 14:52:28,359 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '6140913758128971280', 'token': 'aD296F8E7aF2fCC669bdC63fAC9d0', 'userId': '6215199153727641027'}
+INFO - 2025-12-25 14:52:28,359 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[None]，预期结果为None
+INFO - 2025-12-25 14:52:28,360 - assertions.py:48 -[assertions:contains_assert] - containing断言成功：接口返回码【200】等于【200】
+INFO - 2025-12-25 14:52:28,360 - assertions.py:83 -[assertions:equal_assert] - equal断言成功,接口实际结果为{'msg': '登录成功'},预期结果{'msg': '登录成功'}
+INFO - 2025-12-25 14:52:28,360 - assertions.py:136 -[assertions:assert_result] - 测试通过
+INFO - 2025-12-25 14:52:28,362 - send_request.py:44 -[send_request:run_main] - 请求的接口名称：修改用户
+INFO - 2025-12-25 14:52:28,362 - send_request.py:45 -[send_request:run_main] - 请求的url：http://localhost:8787/dar/user/updateUser
+INFO - 2025-12-25 14:52:28,362 - send_request.py:46 -[send_request:run_main] - 请求的method：post
+INFO - 2025-12-25 14:52:28,362 - send_request.py:47 -[send_request:run_main] - 请求的headers：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2025-12-25 14:52:28,364 - send_request.py:48 -[send_request:run_main] - 请求的cookies：None
+INFO - 2025-12-25 14:52:28,364 - send_request.py:49 -[send_request:run_main] - 请求的file：None
+INFO - 2025-12-25 14:52:28,364 - send_request.py:50 -[send_request:run_main] - 请求的参数：{'data': {'username': 'testadduser', 'password': 'tset6789#$123', 'role_id': 89588181111112343, 'dates': '2025-12-25', 'phone': 13800000000}}
+INFO - 2025-12-25 14:52:28,367 - send_request.py:55 -[send_request:run_main] - 响应的接口消息：{'msg': '更新失败', 'msg_code': 9001}
+INFO - 2025-12-25 14:52:28,367 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为[9001]，预期结果为9001
+INFO - 2025-12-25 14:52:28,368 - assertions.py:56 -[assertions:contains_assert] - 包含断言成功,实际结果为更新失败，预期结果为更新失败
+INFO - 2025-12-25 14:52:28,368 - assertions.py:136 -[assertions:assert_result] - 测试通过

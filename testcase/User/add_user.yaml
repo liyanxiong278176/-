@@ -1,0 +1,31 @@
+- baseInfo:
+    api_name: 新增用户
+    url: /dar/user/addUser
+    method: post
+    headers:
+      Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+  testCase:
+    - case_name: 正常新增用户
+      data:
+        username: testadduser
+        password: tset6789890
+        role_id: 123456789
+        dates: ${get_now()}
+        phone: 13800000000
+        token: ${get_extract_yaml_data(token)}
+      #断言
+      validation:
+        - contains:
+            {
+              'error_code': null
+            }
+        - contains:
+            {
+              'msg_code': 200
+            }
+        - contains:
+            {
+              'msg': '新增成功'
+            }
+
+

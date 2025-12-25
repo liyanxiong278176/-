@@ -1,6 +1,7 @@
 import csv
 import os
 import random
+import time
 
 from common.readyaml import ReadAndWriteYaml
 from common.recordlog import logs
@@ -47,9 +48,16 @@ class DebugTalk:
         except Exception as e:
             logs.error(e)
 
+    def get_now(self):
+        """
+        获取当前时间
+        :return:
+        """
+        return time.strftime("%Y-%m-%d", time.localtime())
+
 
 
 
 if __name__ == '__main__':
-    print(DebugTalk().get_extract_yaml_data('id',"-2"))
-
+    # print(DebugTalk().get_extract_yaml_data('id',"-2"))
+    print(DebugTalk().get_now())
