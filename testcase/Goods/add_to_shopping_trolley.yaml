@@ -1,0 +1,25 @@
+- baseInfo:
+    api_name: 添加购物车
+    url: /coupApply/cms/shoppingJoinCart
+    method: post
+    headers:
+      Content-Type: application/json;charset=UTF-8
+  testCase:
+    - case_name: 正常添加购物车
+      json:
+        goods_id: ${get_extract_yaml_data(goodsId,1)}
+        count: 2
+        price: "128"
+        timeStamp: ${get_timestamp()}
+      #断言
+      validation:
+        - contains:
+            {
+              'error_code': '0000'
+            }
+        - contains:
+            {
+              'message': 'success'
+            }
+
+

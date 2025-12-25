@@ -1,0 +1,21 @@
+- baseInfo:
+    api_name: 校验商品物流状态
+    url: /coupApply/cms/checkOrderStatus
+    method: post
+    headers:
+      Content-Type: application/json;charset=UTF-8
+  testCase:
+    - case_name: 正常校验商品物流状态
+      json:
+        orderNumber: ${get_extract_yaml_data(orderNumber)}
+        timeStamp: ${get_timestamp()}
+      #断言
+      validation:
+        - contains:
+            {
+              'status': '0'
+            }
+
+
+
+

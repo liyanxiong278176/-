@@ -14,11 +14,7 @@
       validation:
         - contains:
             {
-              'error_code': null
-            }
-        - eq:
-            {
-              'msg': '登录成功'
+              'error_code': '0000'
             }
 
 

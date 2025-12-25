@@ -55,6 +55,13 @@ class DebugTalk:
         """
         return time.strftime("%Y-%m-%d", time.localtime())
 
+    def get_timestamp(self):
+        """
+        获取时间戳
+        :return:
+        """
+        return int(time.time())
+
 
 
 

@@ -1,0 +1,25 @@
+- baseInfo:
+    api_name: 订单支付
+    url: /coupApply/cms/orderPay
+    method: post
+    headers:
+      Content-Type: application/json;charset=UTF-8
+  testCase:
+    - case_name: 正常订单支付
+      json:
+        orderNumber: ${get_extract_yaml_data(orderNumber)}
+        userId: ${get_extract_yaml_data(userId)}
+        timeStamp: ${get_timestamp()}
+      #断言
+      validation:
+        - contains:
+            {
+              'error_code': '0000'
+            }
+        - contains:
+            {
+              'message': '订单支付成功'
+            }
+
+
+
