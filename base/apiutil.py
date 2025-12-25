@@ -85,27 +85,10 @@ class Api:
             for fk,fv in file.items():
                 #allure.attach_file(json.dumps(file),"导入文件")
                 files={fk:{open(fv, 'rb')}}
-        # for tc in case_info['testCase']:
-        #     case_name = tc.pop('case_name')
-        #     validation = tc.pop('validation')
-        #     extract = tc.pop('extract', None)
-        #     extract_list = tc.pop('extract_list', None)
-        #
-        #     for key,value in tc.items():
-        #         if key in params_type:
-        #             # 解析参数
-        #             tc[key]=self.analyse_data(value)
-        #
-        #     #处理文件上传接口
-        #     file,files=tc.pop('file', None),None
-        #     if file is not None:
-        #         for fk,fv in file.items():
-        #             #allure.attach_file(json.dumps(file),"导入文件")
-        #             files={fk:{open(fv, 'rb')}}
 
         res = self.send.run_main(api_name=api_name, url=url, method=method, headers=headers, cookies=cookie,
                                       file=files, **testcase)
-        print("res的数据：",json.dumps(res.json(),indent=2,ensure_ascii=False))
+        print(f"res{case_name}的数据：",json.dumps(res.json(),indent=2,ensure_ascii=False))
         if extract is not None:
             self.extract_data(extract,res.text)
         elif extract_list is not None:
